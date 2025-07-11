@@ -29,7 +29,11 @@ nav{
     font-size: 16px;
     font-weight: bold;
     padding: 12px 36px;
-
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: #7f7cd5;
+    background-color: #b5aeae;
 }
 /* heading-banner-part */
 .banner-content{
@@ -176,7 +180,6 @@ align-items: center;
     margin-top: 20px;
     border-radius: 48px;
 }
-
 /* form-section*/
 input[type="email"], input[type="text"], textarea{
     display: block;
@@ -199,6 +202,11 @@ textarea{
     display: block;
     margin-bottom: 20px;
     width: 497px;
+    cursor: pointer;
+}
+.form-btn:hover{
+    color: #7f7cd5;
+    background-color: #b5aeae;
 }
 .form-section{
     display: flex;
