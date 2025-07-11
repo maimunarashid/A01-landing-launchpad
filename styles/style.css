@@ -172,6 +172,10 @@ align-items: center;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
+.forth-img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
 
 /* form-section*/
 input[type="email"], input[type="text"], textarea{
