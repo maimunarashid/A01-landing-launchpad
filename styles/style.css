@@ -156,6 +156,8 @@ gap: 20px;
 .section-four{
 margin: 116px 160px 116px 140px;
 padding: 70px 150px;
+box-shadow: 0 0 10px 5px #e4e4e6;
+border-radius: 14px;
 }
 .forth-section{
     display: flex;
@@ -186,9 +188,13 @@ input[type="email"], input[type="text"], textarea{
     margin-bottom: 20px;
     width: 497px;
     height: 100px;
+    border: 3px solid #eee9e9;
+    border-radius: 10px;
 }
 textarea{
     height: 170px;
+    border: 3px solid #eee9e9;
+    border-radius: 10px;
 }
 .form-btn{
     background-color: #4E47FF;
@@ -224,7 +230,7 @@ gap: auto;
 }
 /* footer */
 footer{
-    background-color: #f5f0f0;
+    box-shadow: 0 0 10px 5px #e4e4e6;
 }
 .footer-content{
     padding: 0 150px;
